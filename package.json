@@ -1,19 +1,17 @@
 {
   "name": "mac-system-monitor",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Menu bar system monitor with toggleable session profiles",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^43.1.0"
+    "electron": "^31.0.0"
   },
   "dependencies": {
-    "systeminformation": "^5.31.17"
+    "systeminformation": "^5.22.0"
   }
 }

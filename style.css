@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background: rgba(30, 30, 32, 0.96); color: #f2f2f2; overflow: hidden; -webkit-user-select: none; }
+.app { padding: 14px; }
+.session-switcher { display: flex; gap: 6px; margin-bottom: 14px; }
+.session-btn { flex: 1; padding: 6px 4px; font-size: 11px; text-align: center; border-radius: 6px; background: rgba(255,255,255,0.06); color: #ccc; cursor: pointer; transition: background 0.15s ease; border: none; }
+.session-btn:hover { background: rgba(255,255,255,0.12); }
+.session-btn.active { background: #4a90e2; color: #fff; font-weight: 600; }
+.metrics { display: flex; flex-direction: column; gap: 10px; }
+.metric-row { display: flex; justify-content: space-between; align-items: center; font-size: 13px; background: rgba(255,255,255,0.04); padding: 8px 10px; border-radius: 8px; }
+.metric-label { color: #999; }
+.metric-value { font-weight: 600; color: #fff; }
+.bar-bg { width: 60px; height: 5px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; margin-left: 8px; }
+.bar-fill { height: 100%; background: #4a90e2; transition: width 0.3s ease; }
+.bar-fill.warn { background: #e2a94a; }
+.bar-fill.danger { background: #e25c4a; }
+.break-banner { margin-top: 12px; padding: 10px; background: rgba(226,169,74,0.15); border: 1px solid rgba(226,169,74,0.4); border-radius: 8px; font-size: 12px; display: flex; justify-content: space-between; align-items: center; }
+.break-banner button { background: #e2a94a; border: none; color: #1e1e20; padding: 4px 8px; border-radius: 5px; font-size: 11px; font-weight: 600; cursor: pointer; }
+.hidden { display: none; }
